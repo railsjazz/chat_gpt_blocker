@@ -8,6 +8,7 @@ Add this line to your application's Gemfile:
 
 ```ruby
 gem 'chat_gpt_blocker'
+```
 
 And then execute:
 
