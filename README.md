@@ -1,5 +1,7 @@
 # ChatGPT Blocker
 
+Funny part: gem was generated with ChatGPT too :)
+
 The ChatGPT Blocker gem is a simple middleware for Rails applications that blocks requests with a specified user agent pattern. By default, it blocks requests with the "ChatGPT-User" user agent.
 
 ## Installation
