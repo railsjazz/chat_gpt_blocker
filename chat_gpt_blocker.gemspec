@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
 
   spec.summary = "Block ChatGPT-User"
   spec.description = "Simple gem (middlware) to block ChatGPT-User"
-  spec.homepage    = "https://github.com/railsjazz/chat_gpt_blocker"
+  spec.homepage = "https://github.com/railsjazz/chat_gpt_blocker"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
 

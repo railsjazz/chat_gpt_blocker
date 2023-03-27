@@ -5,7 +5,7 @@ RSpec.describe ChatGptBlocker::Middleware do
   include Rack::Test::Methods
 
   let(:app) do
-    main_app = ->(_env) { [200, { "Content-Type" => "text/plain" }, ["Hello"]] }
+    main_app = ->(_env) { [200, {"Content-Type" => "text/plain"}, ["Hello"]] }
     ChatGptBlocker::Middleware.new(main_app)
   end
 

@@ -10,7 +10,7 @@ module ChatGptBlocker
       request = Rack::Request.new(env)
 
       if request.user_agent.to_s.match?(CHAT_GPT_USER_AGENT_PATTERN)
-        [403, { "Content-Type" => "text/plain" }, ["Access Forbidden"]]
+        [403, {"Content-Type" => "text/plain"}, ["Access Forbidden"]]
       else
         @app.call(env)
       end
