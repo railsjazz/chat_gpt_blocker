@@ -1,5 +1,7 @@
 # ChatGPT Blocker
 
+Context: https://platform.openai.com/docs/plugins/bot. Add this gem if you want to block your website to the ChatGPT.
+
 Funny part: gem was generated with ChatGPT too :)
 
 ![RailsLiveReload](doc/intro_chatgpt_gem.png)
